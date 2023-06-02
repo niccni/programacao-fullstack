@@ -1,0 +1,13 @@
+<script>
+    const pecas = ["Boa", "Ruim", "Boa", "Boa", "Ruim"];
+   
+    /* const pecasFiltradas = pecas.filter((peca) => peca === "Ruim");
+    const pecasConcertadas = pecasFiltradas.map((elemento) => elemento = "Boa");*/
+    
+    const pecasConcertadas = pecas
+    .filter((peca) => peca === "Ruim")
+    .map((elemento) => elemento = "Boa"); 
+    
+    console.log(pecasConcertadas);
+</script>
+    

@@ -1,0 +1,10 @@
+<script>
+    const numeros = [10, 44, 52, 67, 65, 84];
+    const numerosFiltrados = numeros.filter((numeros) => numeros % 2 === 0 )
+    .map((numeros) => numeros * 2)
+    .reduce((acumulador, numero) => {
+        return acumulador += numero;
+    }, 0);
+
+    console.log(numerosFiltrados);
+</script>
