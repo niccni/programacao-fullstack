@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    padding: 15px;
+    color: white;
+    border: dotted 3px black;
+    display: inline-block;
+}
+
+.rosa {
+    background-color: rgb(250, 125, 192);
+    color: rgb(255, 0, 149);
+}
+
+.roxo {
+    background-color: rgb(178, 105, 247);
+    color: rgb(86, 3, 163);
+}
+
+.verde{
+    background-color: rgb(123, 250, 123);
+    color: rgb(1, 112, 6);
+}
