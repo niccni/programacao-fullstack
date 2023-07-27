@@ -1,0 +1,14 @@
+<script>
+    let numeroAleaotorio = math.floor(math.random() * 10) + 1;
+    let tentativa = parseInt(prompt("Digite um número entre 1 e 10"));
+
+    while (tentativa !== numeroAleatorio){
+        if (tentativa > numeroAleatorio){
+            console.log("Menor");
+        } else {
+            console.log("Maior");
+        }
+        tentativa = parseInt(prompt("Tente novamente: "));
+    }
+    console.log("Prabéns, você acertou o número!");
+</script>
