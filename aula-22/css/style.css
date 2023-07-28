@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+    width: 600px;
+    height: 600px;
+    background-color:rgb(124, 2, 124);
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.secundaria {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(217, 52, 250);
+    position: relative;
+    left: 250px;
+}
