@@ -10,6 +10,8 @@
     background-color:rgb(124, 2, 124);
     margin: auto;
     margin-top: 50px;
+    position: relative;
+   
     
 }
 
@@ -17,6 +19,11 @@
     width: 100px;
     height: 100px;
     background-color: rgb(217, 52, 250);
-    position: relative;
-    left: 250px;
+    position: sticky;
+    right: 0;
+    bottom: 160px;
+}
+
+.secundaria-hover {
+    height: 600px;
 }
