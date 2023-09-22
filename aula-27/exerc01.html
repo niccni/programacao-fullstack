@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Paragráfo</h1>
+    </header>
+    <section>
+        <div>
+            <textarea name="txtArea" id="txtArea" cols="30" rows="10"></textarea>
+            <button id="btn">CRIAR PARAGRAFO</button>
+
+            <div id="result"></div>
+        </div>
+    </section>
+    <script>
+        
+        const txtArea = document.getElementById("txtArea");
+        const button = document.getElementById("btn");
+        const result = document.getElementById("result");
+
+        const criarParagrafo = () => {
+            result.innerHTML = "";
+
+            const paragrafo = document.createElement("p");
+            paragrafo.innerText = txtArea.value;
+
+            result.appendChild(paragrafo);
+        }
+
+        button.addEventListener("click", criarParagrafo);
+
+    </script>
+</body>
+
+</html>

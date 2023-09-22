@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <style>
+        #quadrado {
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Quadrado</h1>
+    </header>
+    <section>
+        <div id="quadrado"></div>
+        <button id="btn">QUADRADO</button>
+
+
+    </section>
+    <script>
+        const quadrado = document.getElementById("quadrado");
+        const button = document.getElementById("btn");
+        const result = document.getElementById("result");
+
+        const modificarQuadrado = () => {
+            quadrado.style.backgroundColor = '#000';
+           
+         }
+         button.addEventListener("click", modificarQuadrado);
+         
+         </script>
+
+
+
+</body>
+
+</html>
