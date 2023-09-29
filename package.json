@@ -1,0 +1,11 @@
+{
+  "name": "programacao-fullstack",
+  "version": "1.0.0",
+  "description": "- Este é o repositório do curso de programação.",
+  "main": " asyncAwait05.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolly Reis",
+  "license": "ISC"
+}
